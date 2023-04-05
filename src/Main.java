@@ -1,18 +1,19 @@
 public class Main {
-    public static void main(String[] args)
-// Begin main
-    {
-            var taskCount = 0;
-            var taskScreen = "Задача №";
 
-// ======= Begin Task 1 =========
-
-            taskCount++;
-            System.out.println(taskScreen + taskCount);
-
-// ======== End Task 1 ==========
-
+    public static void main(String[] args) {
+        task1();
+        task2();
     }
-// End main
 
+    public static void task1 () {
+        System.out.println("Задача 1");
+         // Пишем код для задачи 1
+    }
+
+    public static void task2 () {
+        System.out.println("Задача 2");
+         // Пишем код для задачи 2
+    }
 }
+
+
