@@ -28,6 +28,20 @@ public class Main {
     public static void task2 () {
         System.out.println("\n\nЗадача 2");
          // Пишем код для задачи 2
+        float outsideTemp = 27.12f;
+        long numberOfGrains = 987678965549L;
+        double ross = 2.786;
+        short count = 569;
+        short diff = -159;
+        int local = 27897;
+        byte howMuchTheFish = 67;
+
+
+    }
+
+    public static void task3 () {
+        System.out.println("\n\nЗадача 3");
+        // Пишем код для задачи 3
     }
 }
 
