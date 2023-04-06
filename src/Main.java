@@ -3,6 +3,8 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
+        task4();
     }
 
     public static void task1 () {
@@ -35,13 +37,31 @@ public class Main {
         short diff = -159;
         int local = 27897;
         byte howMuchTheFish = 67;
-
-
+        System.out.println("Значение переменной outsideTemp с типом float = " + outsideTemp);
+        System.out.println("Значение переменной numberOfGrains с типом long = " + numberOfGrains);
+        System.out.println("Значение переменной ross с типом double = " + ross);
+        System.out.println("Значение переменной count с типом short = " + count);
+        System.out.println("Значение переменной diff с типом short = " + diff);
+        System.out.println("Значение переменной local с типом int = " + local);
+        System.out.println("Значение переменной howMuchTheFish с типом byte = " + howMuchTheFish);
     }
 
     public static void task3 () {
         System.out.println("\n\nЗадача 3");
         // Пишем код для задачи 3
+        short ludmilaPavlovna = 23;
+        short annaSergeevna = 27;
+        short ekaterinaAndreevna = 30;
+        short allPapers = 480;
+        int oneStudentPaperNorm;
+
+        oneStudentPaperNorm = allPapers/(ludmilaPavlovna+annaSergeevna+ekaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " + oneStudentPaperNorm + " листов бумаги");
+    }
+
+    public static void task4 () {
+        System.out.println("\n\nЗадача 4");
+        // Пишем код для задачи 4
     }
 }
 
