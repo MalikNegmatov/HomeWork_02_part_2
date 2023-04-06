@@ -62,6 +62,22 @@ public class Main {
     public static void task4 () {
         System.out.println("\n\nЗадача 4");
         // Пишем код для задачи 4
+
+        int bottlesPerMinute = 16/2;
+        int firstPeriod = 20;
+        int secondPeriod = 24*60;
+        int thirdPeriod = 3*secondPeriod;
+        int fourthPeriod = 30*secondPeriod;
+
+        System.out.println("За " + firstPeriod + " минут машина произвела " + bottlesPerMinute*firstPeriod +" штук бутылок");
+        System.out.println("За сутки машина произвела " + bottlesPerMinute*secondPeriod +" штук бутылок");
+        System.out.println("За " + thirdPeriod/secondPeriod + " дня машина произвела " + bottlesPerMinute*thirdPeriod +" штук бутылок");
+        System.out.println("За " + fourthPeriod/secondPeriod + " дней машина произвела " + bottlesPerMinute*fourthPeriod +" штук бутылок");
+    }
+
+    public static void task5 () {
+        System.out.println("\n\nЗадача 5");
+        // Пишем код для задачи 5
     }
 }
 
