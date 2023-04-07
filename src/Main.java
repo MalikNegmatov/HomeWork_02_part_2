@@ -86,11 +86,34 @@ public class Main {
         int totalClass = totalPaintCans / (brownPaintPerOneClass+whitePaintPerOneClass);
         int totalBrownPaintCans = 4*totalClass;
         int totalWhitePaintCans = 2*totalClass;
-        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaintCans + " банок белой краски и " + totalBrownPaintCans + " анок коричневой краски.");
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaintCans + " банок белой краски и " + totalBrownPaintCans + " банок коричневой краски.");
     }
     public static void task6 () {
         System.out.println("\nЗадача 6");
         // Пишем код для задачи 6
+        int oneBananaWeight = 80;
+        int totalBananas = 5;
+
+        int oneMilkPortionWeight = 105;
+        int oneMilkPortionVolume = 100;
+        int totalMilkPortions = 200/oneMilkPortionVolume;
+
+        int oneIceCreamPortionWeight = 100;
+        int totalIceCreamPortions = 2 ;
+
+        int oneEggsWeight = 70;
+        int totalEggs = 4;
+
+        double grams2Kg = 1000.0;
+
+        int totalCocktailWeightGrams = totalBananas*oneBananaWeight
+                    + totalMilkPortions*oneMilkPortionWeight
+                 + totalIceCreamPortions*oneIceCreamPortionWeight
+                 + totalEggs*oneEggsWeight;
+
+        double totalCocktailWeightKg = totalCocktailWeightGrams / grams2Kg;
+
+        System.out.println("Общий вес коктейля у спортсмена = " + totalCocktailWeightGrams + " в граммах, или " + totalCocktailWeightKg + " кг.");
 
     }
 }
