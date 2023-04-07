@@ -8,6 +8,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1 () {
@@ -128,7 +129,28 @@ public class Main {
         System.out.println("При диете с нормой похудения 250 граммов в день спортсмен добьётся результата похудения за " +
                 firstWayTotalDays + " дней, а при норме похудения 500 граммов в день за " + secondWayTotalDays + " дней.");
     }
+    public static void task8 () {
+        System.out.println("\nЗадача 8");
+        // Пишем код для задачи 8
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryChristine = 76230;
 
+        int newSalaryMasha = salaryMasha + salaryMasha/10;
+        int newSalaryDenis = salaryDenis + salaryDenis/10;
+        int newSalaryChristine = salaryChristine + salaryChristine/10;
+
+        int newMashaAnnualIncome = newSalaryMasha*12;
+        int newDenisAnnualIncome = newSalaryDenis*12;
+        int newChristineAnnualIncome = newSalaryChristine*12;
+
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей." +
+                " Годовой доход вырос на " + newMashaAnnualIncome + " рублей");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей." +
+                " Годовой доход вырос на " + newDenisAnnualIncome + " рублей");
+        System.out.println("Кристина теперь получает " + newSalaryChristine + " рублей." +
+                " Годовой доход вырос на " + newChristineAnnualIncome + " рублей");
+    }
 }
 
 
