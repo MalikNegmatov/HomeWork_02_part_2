@@ -7,6 +7,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1 () {
@@ -114,8 +115,20 @@ public class Main {
         double totalCocktailWeightKg = totalCocktailWeightGrams / grams2Kg;
 
         System.out.println("Общий вес коктейля у спортсмена = " + totalCocktailWeightGrams + " в граммах, или " + totalCocktailWeightKg + " кг.");
-
     }
+    public static void task7 () {
+        System.out.println("\nЗадача 7");
+        // Пишем код для задачи 7
+        int overWeight = 7*1000;
+        int firstWayPerDay = 250;
+        int secondWayPerDay = 500;
+        int firstWayTotalDays = overWeight / firstWayPerDay;
+        int secondWayTotalDays = overWeight / secondWayPerDay;
+
+        System.out.println("При диете с нормой похудения 250 граммов в день спортсмен добьётся результата похудения за " +
+                firstWayTotalDays + " дней, а при норме похудения 500 граммов в день за " + secondWayTotalDays + " дней.");
+    }
+
 }
 
 
