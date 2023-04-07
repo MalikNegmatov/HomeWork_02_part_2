@@ -5,6 +5,8 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
+        task6();
     }
 
     public static void task1 () {
@@ -47,7 +49,7 @@ public class Main {
     }
 
     public static void task3 () {
-        System.out.println("\n\nЗадача 3");
+        System.out.println("\nЗадача 3");
         // Пишем код для задачи 3
         short ludmilaPavlovna = 23;
         short annaSergeevna = 27;
@@ -60,7 +62,7 @@ public class Main {
     }
 
     public static void task4 () {
-        System.out.println("\n\nЗадача 4");
+        System.out.println("\nЗадача 4");
         // Пишем код для задачи 4
 
         int bottlesPerMinute = 16/2;
@@ -76,8 +78,20 @@ public class Main {
     }
 
     public static void task5 () {
-        System.out.println("\n\nЗадача 5");
+        System.out.println("\nЗадача 5");
         // Пишем код для задачи 5
+        int brownPaintPerOneClass = 4;
+        int whitePaintPerOneClass = 2;
+        int totalPaintCans = 120;
+        int totalClass = totalPaintCans / (brownPaintPerOneClass+whitePaintPerOneClass);
+        int totalBrownPaintCans = 4*totalClass;
+        int totalWhitePaintCans = 2*totalClass;
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaintCans + " банок белой краски и " + totalBrownPaintCans + " анок коричневой краски.");
+    }
+    public static void task6 () {
+        System.out.println("\nЗадача 6");
+        // Пишем код для задачи 6
+
     }
 }
 
